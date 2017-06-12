@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fatchao.slideviewgroup.SlideMenuItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_demo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="测试数据"
+        android:textColor="@android:color/white"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="菜单"
+        android:textColor="@android:color/white"/>
+</com.fatchao.slideviewgroup.SlideMenuItem>
